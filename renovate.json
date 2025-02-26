@@ -4,7 +4,7 @@
 	"semanticCommits": "disabled",
 	"labels": ["dependencies"],
 	"packageRules": [
-        {
+		{
 			"matchPackageNames": ["nbgv", "nerdbank.gitversioning"],
 			"groupName": "nbgv and nerdbank.gitversioning updates"
 		},
@@ -40,12 +40,12 @@
 			"groupName": "microbuild"
 		},
 		{
-			"matchPackageNames": ["nerdbank.*"],
-			"groupName": "Nerdbank SDK"
+			"matchPackageNames": ["Microsoft.VisualStudio.*"],
+			"groupName": "Visual Studio SDK"
 		},
 		{
-			"matchPackageNames": ["nerdbank.*"],
-			"matchUpdateTypes": ["patch"],
+			"matchPackageNames": ["Microsoft.VisualStudio.*"],
+			"matchUpdateTypes": ["minor"],
 			"enabled": false
 		}
 	]
