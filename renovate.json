@@ -41,6 +41,11 @@
 		},
 		{
 			"matchPackageNames": ["Microsoft.VisualStudio.*"],
+			"matchUpdateTypes": ["minor"],
+			"enabled": false
+		},
+		{
+			"matchPackageNames": ["Microsoft.VisualStudio.*"],
 			"groupName": "Visual Studio SDK"
 		}
 	]
