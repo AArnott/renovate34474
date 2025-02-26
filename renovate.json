@@ -1,0 +1,17 @@
+{
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"extends": ["config:recommended"],
+	"semanticCommits": "disabled",
+	"labels": ["dependencies"],
+	"packageRules": [
+		{
+			"matchPackageNames": ["nerdbank.*"],
+			"groupName": "Nerdbank SDK"
+		},
+		{
+			"matchPackageNames": ["nerdbank.*"],
+			"matchUpdateTypes": ["patch"],
+			"enabled": false
+		}
+	]
+}
